@@ -1,0 +1,32 @@
+.bloque-buscador-button{
+    gap: 17px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  flex-wrap: nowrap;
+
+    
+    &__buscador{
+        width: max-content;
+        
+    }
+    &__img{
+        background-color: white;
+        width: 15px;
+    }
+    &__buscador{
+       
+        &--active{
+            display: flex;
+            position: relative;
+            outline: none;
+            background: none;
+            font-family: sans-serif;
+            color: aqua;
+            font-size: 16px;
+        }
+
+    }
+
+
+}

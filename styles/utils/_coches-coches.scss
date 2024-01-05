@@ -1,0 +1,92 @@
+
+.coches-coches{
+    max-width: 232px;
+
+    
+    &__co{
+        width: 89%;
+        margin: 0 auto;
+
+        &__foto{
+            object-fit: cover;
+            width: 87%;
+            object-position: center;
+            max-width: 90%;
+
+
+        }
+    }
+
+    &__descripcion{
+        height: max-content;
+        bottom: 4%;
+        display: flex;
+        position: relative;
+        text-align: center;
+        font-size: 8px;
+        flex-direction: column;
+        width: -moz-max-content;
+        width: max-content;
+        align-items: flex-start;
+
+
+    }
+
+}
+
+
+.coches-coches__menu-coche{
+    display: flex;
+    width: max-content;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.coches-coches-nav{
+    font-family: sans-serif;
+    list-style: none;
+    margin: 1px;
+    gap: 6px;
+    display: flex;
+    flex-direction: column;
+    &__li{
+        font-size: 4px;
+
+    }
+}
+
+.coches-coches-nav__li a{
+    outline: none;
+    text-decoration: none;
+    color: #80808073;
+    font-family: sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    
+
+}
+
+
+.coches-coches-nav__li a:hover{
+    font-size: 20px;
+}
+
+
+.coches-coches__descripcion > .parrafo1{
+
+    inline-size: 151px;
+    line-height: 11px;
+    font-size: 14px;
+    width: max-content;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+.coches-coches__descripcion > .parrafo2{
+    inline-size: 151px;
+    line-height: 19px;
+    font-size: 9px;
+    width: max-content;
+    color: #808080ab;
+    font-weight: bold;
+    font-family: sans-serif;
+}

@@ -1,0 +1,92 @@
+/*Aqui van los bloques solo bloques con sus parametros, para cada clase dentro de un bloque  te creas otro archivo scss, y debajo de el todas sus hijos con sus paramentros*/
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+
+header {
+
+  width: 100%;
+  display: flex;
+  gap: 251px;
+  background: cover;
+  background-image: url(../../pictures/bmw.jpg);
+  position: relative;
+  flex-direction: column;
+  flex-wrap: wrap;
+
+}
+
+
+.encabezado { 
+
+  gap: 39px;
+  display: flex;
+  max-height: max-content;
+  position: relative;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: nowrap;
+
+  
+  
+  
+
+.descubrelo{
+
+  max-height: max-content;
+  position: relative;
+}
+  
+}
+main {
+  height: 800px;
+  background-color: white;
+  position: relative;
+}
+
+.coches{
+  left: 14px;
+  top: 35px;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+
+  &__coches-img-descripcion{
+    gap: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+
+  
+}
+
+.tarjetas{
+  top: 101px;
+  display: flex;
+  position: relative;
+
+  &__tarjetas-img-descripcion-tarjetas{
+    gap: 7px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+}
+
+.video{
+    top: 199px;
+    display: flex;
+    position: relative;
+    justify-content: center;
+
+  &__video-img-descripcion-video{
+    gap: 7px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+}

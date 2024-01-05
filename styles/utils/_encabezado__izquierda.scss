@@ -1,0 +1,21 @@
+.encabezado__izquierda{
+
+ width: 100%;
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: flex-end;
+
+  border-image: linear-gradient(to bottom, #d3cecede, #c3cac391, #dedee34a) 1;
+  border-bottom: 1px solid transparent;
+  position: relative;
+  padding: 28px;
+  left: 24px;
+  flex-direction: row;
+    justify-content: space-between;
+
+
+
+    
+ 
+    
+}

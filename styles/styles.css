@@ -1,0 +1,524 @@
+@charset "UTF-8";
+/*Aqui va solo tamaños*/
+/*Aqui va parametros, para elementos con igual style.*/
+/*Aqui van los bloques solo bloques con sus parametros, para cada clase dentro de un bloque  te creas otro archivo scss, y debajo de el todas sus hijos con sus paramentros*/
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+header {
+  width: 100%;
+  display: flex;
+  gap: 251px;
+  background: cover;
+  background-image: url(../../pictures/bmw.jpg);
+  position: relative;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.encabezado {
+  gap: 39px;
+  display: flex;
+  max-height: -moz-max-content;
+  max-height: max-content;
+  position: relative;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+.encabezado .descubrelo {
+  max-height: -moz-max-content;
+  max-height: max-content;
+  position: relative;
+}
+
+main {
+  height: 800px;
+  background-color: white;
+  position: relative;
+}
+
+.coches {
+  left: 14px;
+  top: 35px;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+}
+.coches__coches-img-descripcion {
+  gap: 25px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.tarjetas {
+  top: 101px;
+  display: flex;
+  position: relative;
+}
+.tarjetas__tarjetas-img-descripcion-tarjetas {
+  gap: 7px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.video {
+  top: 199px;
+  display: flex;
+  position: relative;
+  justify-content: center;
+}
+.video__video-img-descripcion-video {
+  gap: 7px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.encabezado__izquierda {
+  width: 100%;
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: flex-end;
+  -o-border-image: linear-gradient(to bottom, rgba(211, 206, 206, 0.8705882353), rgba(195, 202, 195, 0.568627451), rgba(222, 222, 227, 0.2901960784)) 1;
+     border-image: linear-gradient(to bottom, rgba(211, 206, 206, 0.8705882353), rgba(195, 202, 195, 0.568627451), rgba(222, 222, 227, 0.2901960784)) 1;
+  border-bottom: 1px solid transparent;
+  position: relative;
+  padding: 28px;
+  left: 24px;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.bloque-buscador-button {
+  gap: 17px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  flex-wrap: nowrap;
+}
+.bloque-buscador-button__buscador {
+  width: -moz-max-content;
+  width: max-content;
+}
+.bloque-buscador-button__img {
+  background-color: white;
+  width: 15px;
+}
+.bloque-buscador-button__buscador--active {
+  display: flex;
+  position: relative;
+  outline: none;
+  background: none;
+  font-family: sans-serif;
+  color: aqua;
+  font-size: 16px;
+}
+
+.bloquebutton {
+  gap: 22px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  flex-wrap: nowrap;
+}
+.bloquebutton__modelos {
+  color: white;
+  font-weight: bold;
+  font-family: sans-serif;
+  background: transparent;
+  font-size: 17px;
+}
+.bloquebutton__Promociones {
+  color: white;
+  font-weight: bold;
+  font-family: sans-serif;
+  background: transparent;
+  font-size: 17px;
+}
+.bloquebutton__Servicios {
+  color: white;
+  font-weight: bold;
+  font-family: sans-serif;
+  background: transparent;
+  font-size: 17px;
+}
+.bloquebutton__UniversoBMW {
+  color: white;
+  font-weight: bold;
+  font-family: sans-serif;
+  background: transparent;
+  font-size: 17px;
+  inline-size: -moz-max-content;
+  inline-size: max-content;
+}
+
+.encabezado__derecha {
+  display: contents;
+  width: 100%;
+}
+
+.encabezadologo {
+  gap: 3px;
+  display: flex;
+  width: -moz-max-content;
+  width: max-content;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+.encabezadologo__img {
+  padding: 9px;
+  background-color: white;
+  width: 66px;
+}
+.encabezadologo__h1 {
+  padding: 4px;
+  background-color: white;
+  font-size: 7px;
+}
+
+.descubrelo {
+  position: relative;
+  left: 24px;
+  height: -moz-max-content;
+  height: max-content;
+  display: flex;
+  width: -moz-max-content;
+  width: max-content;
+  flex-direction: column;
+  flex-wrap: nowrap;
+}
+
+.descubreloparr1__titulo1 {
+  font-family: sans-serif;
+  color: white;
+  font-size: 30px;
+}
+
+.descubreloparr2__titulo2 {
+  color: white;
+  font-family: sans-serif;
+  font-size: 17px;
+}
+
+.descubreloparr3__link {
+  font-family: sans-serif;
+  font-size: 9px;
+  text-align: center;
+  width: 147px;
+  padding: 10px;
+  color: white;
+  background-color: #1c69d5;
+}
+
+.series {
+  gap: 18px;
+  position: relative;
+  left: 63px;
+  color: gray;
+  height: -moz-max-content;
+  height: max-content;
+  display: flex;
+  width: -moz-max-content;
+  width: max-content;
+  flex-direction: column;
+}
+
+.series-titulo {
+  padding: 2px;
+  outline: none;
+  text-decoration: none;
+  font-family: sans-serif;
+  font-size: 17px;
+  font-weight: bold;
+  color: rgba(128, 128, 128, 0.4509803922);
+  width: -moz-max-content;
+  width: max-content;
+}
+
+.series-titulo:visited {
+  color: rgb(50, 47, 47);
+}
+
+.series-nav {
+  display: flex;
+  width: -moz-max-content;
+  width: max-content;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+.series-nav-menu {
+  margin: 1px;
+  gap: 31px;
+  display: flex;
+  flex-direction: row;
+}
+.series-nav-menu__menu {
+  padding: 1px;
+}
+
+.series-nav-menu__menu a {
+  outline: none;
+  text-decoration: none;
+  color: rgba(128, 128, 128, 0.4509803922);
+  font-family: sans-serif;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.series-nav-menu__menu a:hover {
+  border-bottom: 3px solid blue;
+}
+
+.series-nav-menu__menu a:focus {
+  border-bottom: 3px solid blue;
+  font-size: 30px;
+}
+
+.coches-coches {
+  max-width: 232px;
+}
+.coches-coches__co {
+  width: 89%;
+  margin: 0 auto;
+}
+.coches-coches__co__foto {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 87%;
+  -o-object-position: center;
+     object-position: center;
+  max-width: 90%;
+}
+.coches-coches__descripcion {
+  height: -moz-max-content;
+  height: max-content;
+  bottom: 4%;
+  display: flex;
+  position: relative;
+  text-align: center;
+  font-size: 8px;
+  flex-direction: column;
+  width: -moz-max-content;
+  width: max-content;
+  align-items: flex-start;
+}
+
+.coches-coches__menu-coche {
+  display: flex;
+  width: -moz-max-content;
+  width: max-content;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+.coches-coches-nav {
+  font-family: sans-serif;
+  list-style: none;
+  margin: 1px;
+  gap: 6px;
+  display: flex;
+  flex-direction: column;
+}
+.coches-coches-nav__li {
+  font-size: 4px;
+}
+
+.coches-coches-nav__li a {
+  outline: none;
+  text-decoration: none;
+  color: rgba(128, 128, 128, 0.4509803922);
+  font-family: sans-serif;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.coches-coches-nav__li a:hover {
+  font-size: 20px;
+}
+
+.coches-coches__descripcion > .parrafo1 {
+  inline-size: 151px;
+  line-height: 11px;
+  font-size: 14px;
+  width: -moz-max-content;
+  width: max-content;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+
+.coches-coches__descripcion > .parrafo2 {
+  inline-size: 151px;
+  line-height: 19px;
+  font-size: 9px;
+  width: -moz-max-content;
+  width: max-content;
+  color: rgba(128, 128, 128, 0.6705882353);
+  font-weight: bold;
+  font-family: sans-serif;
+}
+
+.tarjetas-tarjetas {
+  max-width: 250px;
+}
+.tarjetas-tarjetas__co {
+  width: 91%;
+  margin: 0 auto;
+}
+.tarjetas-tarjetas__co__foto {
+  border: 2px solid rgba(128, 128, 128, 0.4117647059);
+  padding: 9px;
+  -o-object-fit: contain;
+     object-fit: contain;
+  width: 90%;
+}
+.tarjetas-tarjetas__descripcion {
+  top: 9px;
+  height: -moz-max-content;
+  height: max-content;
+  display: flex;
+  position: relative;
+  text-align: center;
+  flex-direction: column;
+}
+
+.tarjetas-tarjetas__menu-tarjeta {
+  position: relative;
+  top: 30px;
+  display: flex;
+  width: -moz-max-content;
+  width: max-content;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+.tarjetas-tarjetas-nav {
+  font-family: sans-serif;
+  list-style: none;
+  margin: 1px;
+  gap: 4px;
+  display: flex;
+  flex-direction: column;
+}
+.tarjetas-tarjetas-nav__li {
+  font-size: 5px;
+}
+
+.tarjetas-tarjetas-nav__li a {
+  outline: none;
+  text-decoration: none;
+  color: black;
+  font-family: sans-serif;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+.tarjetas-tarjetas-nav__li a:hover {
+  font-size: 20px;
+}
+
+.tarjetas-tarjetas__descripcion > .parrafo12 {
+  line-height: 24px;
+  font-size: 23px;
+  width: 140px;
+  font-weight: bold;
+  font-family: sans-serif;
+  text-align: justify;
+}
+
+.tarjetas-tarjetas__descripcion > .parrafo22 {
+  text-align: justify;
+  inline-size: 127px;
+  line-height: 11px;
+  font-size: 8px;
+  width: 70%;
+  color: rgba(128, 128, 128, 0.6705882353);
+  font-weight: bold;
+  font-family: sans-serif;
+}
+
+.video-video {
+  max-width: 465px;
+}
+.video-video__co {
+  width: 104%;
+  margin: 0 auto;
+}
+.video-video__co__foto {
+  border: 2px solid rgba(128, 128, 128, 0.4117647059);
+  padding: 7px;
+  -o-object-fit: contain;
+     object-fit: contain;
+  width: 92%;
+}
+.video-video__descripcion {
+  top: 9px;
+  height: -moz-max-content;
+  height: max-content;
+  display: flex;
+  position: relative;
+  text-align: center;
+  flex-direction: column;
+}
+
+.video-video__menu-video {
+  position: relative;
+  top: 30px;
+  display: flex;
+  width: -moz-max-content;
+  width: max-content;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+.video-video-nav {
+  font-family: sans-serif;
+  list-style: none;
+  margin: 1px;
+  gap: 4px;
+  display: flex;
+  flex-direction: column;
+}
+.video-video-nav__li {
+  font-size: 5px;
+}
+
+.video-video-nav__li a {
+  outline: none;
+  text-decoration: none;
+  color: black;
+  font-family: sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.video-video-nav__li a:hover {
+  font-size: 20px;
+}
+
+.video-video__descripcion > .parrafo123 {
+  line-height: 24px;
+  font-size: 23px;
+  width: 140px;
+  font-weight: bold;
+  font-family: sans-serif;
+  text-align: justify;
+}
+
+.video-video__descripcion > .parrafo223 {
+  text-align: justify;
+  inline-size: 127px;
+  line-height: 11px;
+  font-size: 8px;
+  width: 70%;
+  color: rgba(128, 128, 128, 0.6705882353);
+  font-weight: bold;
+  font-family: sans-serif;
+}/*# sourceMappingURL=styles.css.map */

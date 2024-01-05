@@ -1,0 +1,45 @@
+.descubrelo{
+
+    position: relative;
+    left: 24px;
+    height: max-content;
+    display: flex;
+    width: max-content;
+    flex-direction: column;
+    flex-wrap: nowrap;
+
+
+
+}
+
+.descubreloparr1{
+
+    &__titulo1{
+        font-family: sans-serif;
+    color: white;
+    font-size: 30px;
+
+
+
+    }
+}
+.descubreloparr2{
+    &__titulo2{
+        color: white;
+        font-family:sans-serif;
+        font-size:17px;
+
+    }
+}
+.descubreloparr3{
+    &__link{
+        font-family: sans-serif;
+        font-size: 9px;
+        text-align: center;
+        width: 147px;
+        padding: 10px;
+        color: white;
+        background-color: #1c69d5;
+
+}
+}

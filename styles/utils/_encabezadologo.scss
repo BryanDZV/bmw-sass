@@ -1,0 +1,21 @@
+.encabezadologo{
+    gap: 3px;
+  display: flex;
+  width: max-content;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+
+    &__img{
+        padding: 9px;
+        background-color: white;
+        width: 66px;
+    }
+
+    &__h1{
+        padding: 4px;
+        background-color: white;
+    font-size: 7px;
+
+    }
+}
